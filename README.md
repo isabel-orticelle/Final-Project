@@ -4,7 +4,7 @@
 I made a book depository so that an average user can add, delete, and edit books to this database for various purposes such as to keep track of various author's book or to keep track of the books he or she has read. The Author table is a one to many relationship in which one author can have many books.
 
 ### Database Design
-Author Table
+Author Table: *one to many relationship*
 
 Author ID |  Author Name | About
 ------------|---------------|-------------
@@ -26,27 +26,27 @@ Run the Depository
 
 - **Windows Instructions**
 
- Go to [my GitHub](https://github.com/isabel-orticelle/Final-Project) and clone the repo so that you can store it locally.
+Go to [my GitHub](https://github.com/isabel-orticelle/Final-Project) and clone the repo so that you can store it locally.
 
- Open Powershell
+Open Powershell
 
- Type the following command to open the project directory:
+Type the following command to open the project directory:
 
     cd Final-Project
 
- Type the following command to create Virtualenv so that we can setup a virtual environment:
+Type the following command to create Virtualenv so that we can setup a virtual environment:
 
     pip install virtualenv
 
- Create the venv folder:
+Create the venv folder:
 
     virtualenv venv
 
- Activate the virtual environment:
+Activate the virtual environment:
 
     venv/scripts/activate
 
-    7. Install the requirements for the project:
+Install the requirements for the project:
 
     pip install -r requirements.txt
 
@@ -60,39 +60,42 @@ Run the Depository
 
  View the website in your web browser by typing your IP address into the address bar.
 
+    http://127.0.0.1:5000/
+
 - **Mac Instructions**
-  1. Go to [my GitHub] (https://github.com/isabel-orticelle) and click on the Final-Project repo and clone the repo so that you can store it locally.
 
-  2. Open the Command Line
+Go to [my GitHub](https://github.com/isabel-orticelle/Final-Project)  and clone the repo so that you can store it locally.
 
-  3. Type the following command to open the project directory:
+Open the Command Line
 
-  cd Final-Project
+Type the following command to open the project directory:
 
-  4. Type the following command to create Virtualenv so that we can setup a virtual environment:
+    cd Final-Project
 
-  sudo pip install virtualenv
+Type the following command to create Virtualenv so that we can setup a virtual environment:
 
-  5. Create the venv folder:
+    sudo pip install virtualenv
 
-  virtualenv venv
+Create the venv folder:
 
-  6. Activate the virtual environment:
+    virtualenv venv
 
-  venv/bin/activate
+Activate the virtual environment:
 
-  7. Install the requirements for the project:
+    venv/bin/activate
 
-  pip install -r requirements.txt
+Install the requirements for the project:
 
-  8. Initialize the database:
+    pip install -r requirements.txt
 
-  python manage.py deploy
+ Initialize the database:
 
-  9. Run the server:
+    python manage.py deploy
 
-  python manage.py runserver -d
+ Run the server:
 
-  10. View the website in your web browser by typing your IP address into the address bar.
+    python manage.py runserver -d
 
-  http://127.0.0.1:5000/
+ View the website in your web browser by typing your IP address into the address bar.
+
+    http://127.0.0.1:5000/
