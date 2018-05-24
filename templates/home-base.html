@@ -3,7 +3,6 @@
 
 <head>
   {% block head %}
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <title>{% block title%}{% endblock%} - Book Depository</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -21,6 +20,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
   <!-- Songbase CSS -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/bookdepo.css') }}">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
   {% endblock%}
 </head>

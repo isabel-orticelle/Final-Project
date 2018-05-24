@@ -170,7 +170,7 @@ def delete_book(id):
 
 @app.route('/api/book/<int:id>', methods=['DELETE'])
 def delete_ajax_book(id):
-    book = Books.query.get_or_404(id)
+    book = Book.query.get_or_404(id)
     db.session.delete(book)
     db.session.commit()
     return jsonify({"id": str(book.id), "name": book.name})
