@@ -15,7 +15,7 @@ Author ID |  Author Name | About
 Book Table
 
 Book ID | Title(Name) | Year | Author | Summary
----------|-------|-------|------|------------|---------
+---------|-------|-------|------|------------
 1 | It | 1986 | Stephen King | Seven young outcasts in Derry, Maine, are about to face their worst nightmare -- an ancient, shape-shifting evil that emerges from the sewer every 27 years to prey on the town's children. Banding together over the course of one horrifying summer, the friends must overcome their own personal fears to battle the murderous, bloodthirsty clown known as Pennywise.
 2 | Harry Potter and the Sorcerer's Stone | 1997 | JK Rowling | A boy learns on his eleventh birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards. There, he meets several friends who become his closest allies and help him discover the truth about his parents' mysterious deaths
 3 | The Great Gatsby| 1925 | F Scott Fitzgerald | The Great Gatsby is the story of eccentric millionaire Jay Gatsby as told by Nick Carraway, a Midwesterner who lives on Long Island but works in Manhattan. Gatsby's enormous mansion is adjacent to Carraway's modest home, and Carraway becomes curious about his neighbor after being invited to one of his famous parties
