@@ -26,23 +26,23 @@ Run the Depository
 
 - **Windows Instructions**
 
-    1. Go to [my GitHub] (https://github.com/isabel-orticelle) and click on the Final-Project repo and clone the repo so that you can store it locally.
+ Go to [my GitHub](https://github.com/isabel-orticelle/Final-Project) and clone the repo so that you can store it locally.
 
-    2. Open Powershell
+ Open Powershell
 
-    3. Type the following command to open the project directory:
+ Type the following command to open the project directory:
 
     cd Final-Project
 
-    4. Type the following command to create Virtualenv so that we can setup a virtual environment:
+ Type the following command to create Virtualenv so that we can setup a virtual environment:
 
     pip install virtualenv
 
-    5. Create the venv folder:
+ Create the venv folder:
 
     virtualenv venv
 
-    6. Activate the virtual environment:
+ Activate the virtual environment:
 
     venv/scripts/activate
 
@@ -50,15 +50,15 @@ Run the Depository
 
     pip install -r requirements.txt
 
-    8. Initialize the database:
+ Initialize the database:
 
     python manage.py deploy
 
-    9. Run the server:
+ Run the server:
 
     python manage.py runserver -d
 
-    10. View the website in your web browser by typing your IP address into the address bar.
+ View the website in your web browser by typing your IP address into the address bar.
 
 - **Mac Instructions**
   1. Go to [my GitHub] (https://github.com/isabel-orticelle) and click on the Final-Project repo and clone the repo so that you can store it locally.
