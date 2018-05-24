@@ -31,25 +31,25 @@ Run the Depository
     2. Open Powershell
 
     3. Type the following command to open the project directory:
-            cd Final-Project
+      cd Final-Project
 
     4. Type the following command to create Virtualenv so that we can setup a virtual environment:
-            pip install virtualenv
+      pip install virtualenv
 
     5. Create the venv folder:
-            virtualenv venv
+      virtualenv venv
 
     6. Activate the virtual environment:
-            venv/scripts/activate
+      venv/scripts/activate
 
     7. Install the requirements for the project:
             pip install -r requirements.txt
 
     8. Initialize the database:
-            python manage.py deploy
+      python manage.py deploy
 
     9. Run the server:
-            python manage.py runserver -d
+      python manage.py runserver -d
 
     10. View the website in your web browser by typing your IP address into the address bar.
 
@@ -59,25 +59,25 @@ Run the Depository
   2. Open the Command Line
 
   3. Type the following command to open the project directory:
-          cd Final-Project
+    cd Final-Project
 
   4. Type the following command to create Virtualenv so that we can setup a virtual environment:
-          sudo pip install virtualenv
+    sudo pip install virtualenv
 
   5. Create the venv folder:
           virtualenv venv
 
   6. Activate the virtual environment:
-          venv/bin/activate
+    venv/bin/activate
 
   7. Install the requirements for the project:
-          pip install -r requirements.txt
+    pip install -r requirements.txt
 
   8. Initialize the database:
-          python manage.py deploy
+    python manage.py deploy
 
   9. Run the server:
-          python manage.py runserver -d
+    python manage.py runserver -d
 
   10. View the website in your web browser by typing your IP address into the address bar.
-          http://127.0.0.1:5000/
+    http://127.0.0.1:5000/
