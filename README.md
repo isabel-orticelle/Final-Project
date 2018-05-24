@@ -22,7 +22,7 @@ Book ID | Title(Name) | Year | Author | Summary
 
 ### Instructions
 
-In order to run our website, you'll need to follow a few simple steps to get it up and running in your web browser of choice.
+Run the Depository
 
 - **Windows Instructions**
 
@@ -31,7 +31,7 @@ In order to run our website, you'll need to follow a few simple steps to get it 
     2. Open Powershell
 
     3. Type the following command to open the project directory:
-            cd group-assignment
+            cd Final-Project
 
     4. Type the following command to create Virtualenv so that we can setup a virtual environment:
             pip install virtualenv
@@ -59,7 +59,7 @@ In order to run our website, you'll need to follow a few simple steps to get it 
   2. Open the Command Line
 
   3. Type the following command to open the project directory:
-          cd group-assignment
+          cd Final-Project
 
   4. Type the following command to create Virtualenv so that we can setup a virtual environment:
           sudo pip install virtualenv
@@ -80,3 +80,4 @@ In order to run our website, you'll need to follow a few simple steps to get it 
           python manage.py runserver -d
 
   10. View the website in your web browser by typing your IP address into the address bar.
+          http://127.0.0.1:5000/
